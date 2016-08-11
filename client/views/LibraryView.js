@@ -3,7 +3,6 @@ var LibraryView = Backbone.View.extend({
 
   tagName: 'table',
 
-
   initialize: function() {
     this.render();
     this.collection.on('sync', this.render, this);
