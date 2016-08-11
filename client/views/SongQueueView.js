@@ -2,6 +2,9 @@
 var SongQueueView = Backbone.View.extend({
 
   tagName: 'table',
+  
+
+
 
   initialize: function() {
     this.render();
