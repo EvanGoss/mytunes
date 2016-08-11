@@ -7,10 +7,10 @@ var SongQueue = Backbone.Collection.extend({
     //song is added
     //song is deleted
     //song is ended
-    this.on('enqueue', function(e) {
-      console.log('mhere');
-      this.add(e);  
-    });
+    // this.on('enqueue', function(e) {
+    //   console.log('enqueuing');
+    //   this.add(e);  
+    // });
 
     this.on('add', function() {
       console.log('adding');
